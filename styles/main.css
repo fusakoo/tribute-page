@@ -17,6 +17,11 @@ a:hover {
     margin-top: 50px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+
 /* Header with background image */
 header {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/77/Osamu_Dazai.jpg');
@@ -86,7 +91,7 @@ header h2 {
 
 #img-caption {
     font-size: 12px;
-    margin-top: 5px;
+    line-height: 10%;
 }
 
 .block {
@@ -100,11 +105,15 @@ header h2 {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(25, 20px);
+    grid-template-rows: repeat(26, 20px);
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.text-center {
-    text-align: center;
+.reference {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
 }
