@@ -85,9 +85,13 @@ header h2 {
     width: 100%;
 }
 
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .circle-border {
-    height: 200px;
-    width: 200px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -95,6 +99,12 @@ header h2 {
 #img-caption {
     font-size: 12px;
     line-height: 10%;
+}
+
+#tribute-info {
+    font-size: 20px;
+    line-height:1.5;
+    margin-left: 50px;
 }
 
 /* Works */
