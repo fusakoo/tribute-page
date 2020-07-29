@@ -91,11 +91,6 @@ header h2 {
     height: auto;
 }
 
-.circle-border {
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 #img-caption {
     font-size: 12px;
     line-height: 10%;
