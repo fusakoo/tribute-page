@@ -86,14 +86,14 @@ header h2 {
 }
 
 #image {
-    display: block;
     max-width: 100%;
     height: auto;
 }
 
 #img-caption {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 10%;
+    text-align: center;
 }
 
 #tribute-info {
